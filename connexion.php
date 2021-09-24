@@ -11,7 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-	<h1>Connectez vous pour entrer dans le chat</h1>
+	<h1>Connectez vous pour entrer dans le chat/Log in to enter the chat</h1>
 	<br />
 	<form id="form" action="<your url>" method="post">
 		<input id="ps" type="text" autocomplete="off" name="id" placeholder="identifiant" maxlength="50" />
