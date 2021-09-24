@@ -1,0 +1,92 @@
+body {
+	text-align: center;
+	font-family: arial;
+	overflow-x: hidden;
+}
+
+p {
+	line-break: anywhere;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+h1 {
+	margin-bottom: 0;
+}
+
+#form {
+	width: 90%;
+	border: solid #000 3px;
+	border-radius: 10px;
+	margin: 0 auto 50px auto;
+}
+
+input {
+	width: 285px;
+	height: 40px;
+	margin: 10px;
+	font-size: 20px;
+	text-align: center;
+	color: #000;
+	border: solid #000 2px;
+	background: #fff;
+	border-radius: 5px;
+}
+
+#ms {
+	width: 600px;
+}
+
+.button {
+	height: 30px;
+	cursor: pointer;
+}
+
+#message {
+	width: 90%;
+	border: solid #000 3px;
+	border-radius: 10px 10px 0 0;
+	margin: auto;
+	border-bottom: 0;
+}
+
+#error {
+	background: #992000;
+	color: #fff;
+	border: solid #000 2px;
+	border-radius: 5px;
+	width: 70%;
+	margin: 10px auto;
+	text-decoration: underline #992000;
+}
+
+#supprimer {
+	background: #009000;
+	color: #fff;
+	border: solid #000 2px;
+	border-radius: 5px;
+	width: 70%;
+	margin: 10px auto;
+	text-decoration: underline #009000;
+}
+
+hr {
+	width: 98%;
+	height: 0;
+	border: solid #000;
+	border: 2px 0;
+}
+
+@media only screen and (max-width: 1000px) {
+	#ms {
+		width: 300px;
+	}
+
+	.button {
+		font-size: 15px;
+	}
+
+	hr {
+		border: 1px 0;
+	}
+}
